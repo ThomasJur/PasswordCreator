@@ -5,10 +5,11 @@ import string
 length=0
 
 if len(sys.argv) > 1:
-	if int(sys.arg[1]) > 3:
+	if int(sys.argv[1]) > 3:
 		length = int(sys.argv[1])
 	else:
 		print("Your password needs to be at least 4 characters long!")
+		sys.exit()
 else:
 	length = 12
 password = []
