@@ -1,2 +1,2 @@
 # PasswordCreator
-testfolder to check push/pul to repo on different computers.
+testfolder to check push/pull from/to repo on different computers.
